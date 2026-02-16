@@ -1,8 +1,11 @@
+import { CardRedHeaven } from "./components/CardRedHeaven";
+
 export default function Home() {
   return (
-    <main style={{ padding: 24 }}>
-      <h1>Hola Matheu 👋</h1>
-      <p>Ya estoy editando Next.js.</p>
-    </main>
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans">
+      <main className="w-full max-w-3xl px-16">
+        <CardRedHeaven />
+      </main>
+    </div>
   );
 }
